@@ -56,3 +56,24 @@ a:hover {
 a:active {
   color: #6395e6;
 }
+
+.resume-button:link,
+.resume-button:visited {
+  display: inline-block;
+  line-height: 1;
+  background-color: #6395e6;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  color: #ECDBBA;
+  text-decoration: none;
+}
+
+.resume-button:hover {
+  background-color: #88afeb;
+  color: #fff1d6;
+}
+
+.resume-button:active {
+  color: #88afeb;
+  background-color: #fff1d6;
+}
